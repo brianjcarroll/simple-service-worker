@@ -5,7 +5,8 @@ this.addEventListener("install", function(e) {
   // Create a cache of resources. Begins the process of fetching them.
   var shellResources = new Cache(
     "/",
-    "/css/base.css"
+    "/css/base.css",
+    "/js/site.js"
   );
 
   // The coast is only clear when all the resources are ready.
